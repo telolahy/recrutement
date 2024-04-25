@@ -1,0 +1,116 @@
+/*.profile_info {
+    position: relative;
+}
+.profile-info
+.profile_info_iner {
+    position: absolute;
+    display: block;
+    right: 0;
+    background-color: #2e4765;
+    text-align: right;
+    width: 215px;
+    padding: 30px 30px 20px;
+    opacity: 0;
+    visibility: hidden;
+    top: 77px;
+    -webkit-transition: .5s;
+    transition: .5s;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+.profile_info_iner::before {
+    position: absolute;
+    content: '';
+    width: 0;
+    height: 0;
+    border-style: solid;
+    top: -14px;
+    right: 10px;
+    border-width: 0 15px 20px;
+    border-color: transparent transparent #2e4765 transparent;
+}
+box-sizing: border-box;*/
+.dropdown, .dropstart {
+    position: relative;
+}
+.rounded-circle {
+    border-radius: 50% !important;
+}
+.h-auto {
+    height: auto !important;
+}
+.w-px-40 {
+    width: 40px !important;
+}
+.navbar-nav .dropdown-menu {
+    position: absolute;
+}
+.dropdown-menu.show {
+    display: block;
+}
+dropdown-menu[data-bs-popper] {
+    top: 100%;
+    left: 0;
+    margin-top: 0.125rem;
+}
+.dropdown-item {
+    display: block;
+    width: 100%;
+    padding: 0.532rem 1.25rem;
+    clear: both;
+    font-weight: 400;
+    color: #697a8d;
+    text-align: inherit;
+    white-space: nowrap;
+    background-color: transparent;
+    border: 0;
+}
+.dropdown-menu-end {
+    --bs-position: end;
+}
+.bx {
+    vertical-align: middle;
+    font-size: 1.15rem;
+    line-height: 1;
+}
+.dropdown-divider {
+    height: 0;
+    margin: 0.5rem 0;
+    overflow: hidden;
+    border-top: 1px solid #d9dee3;
+}
+.fw-semibold {
+    font-weight: 600 !important;
+    color: #2C495C;
+}
+.text-muted {
+    --bs-text-opacity: 1;
+    color: #697a8d !important;
+}
+small, .small {
+    font-size: 85%;
+}
+.dropdown-item {
+    line-height: 1.54;
+}
+.dropdown-menu {
+    position: absolute;
+    z-index: 1000;
+    display: none;
+    min-width: 12rem;
+    padding: 0.3125rem 0;
+    margin: 0;
+    font-size: 0.9375rem;
+    color: #697a8d;
+    text-align: left;
+    list-style: none;
+    list-style-position: initial;
+    list-style-image: initial;
+    list-style-type: none;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid transparent;
+    border-radius: 0.375rem;
+}
+/*#638eab*/
